@@ -1,0 +1,60 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    color: #3046C5
+}
+
+.navbar {
+    background: #000;
+    background-color: #000;
+}
+
+.nav-link, .navbar-brand {
+    color: #CCD1D1;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: #797D7F;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background-color: #fff !important
+}
+
+.jumbotron {
+    background-image: url(../images/weightlifting1.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron h1 {
+    color: #fff;
+}
+
+.jumbotron h2 {
+    color: #CCD1D1;
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+ 
+
+footer {
+    background: #797D7F;
+}

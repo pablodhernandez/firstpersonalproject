@@ -7,61 +7,119 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
-    <title>Energize Supplements</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+    <title>REFINE Fitness</title>
 </head>
 <body>
 
-    <header>
-        <div>
-            <h1>NuCamp</h1>
-            <h2>a better way to camp</h2>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#">REFINE Fitness</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nabvarSupportedContent" aria-controls="nabarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-4">
+                <li class="nav-item">
+                    <a class="nav-link" data-value="supplements" href="#">Supplements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-value="training" href="#">Training</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-value="gear" href="#">Trainers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-value="about" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-value="contact" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="overlay">
+            <div class="container">
+                <div class="description text-left">
+                        <h1>REFINE Fitness</h1>
+                        <h2>a better way to supplement</h2>
+                        <button class="btn btn-secondary btn-lg">Shop now</button>        
+                </div>                    
+            </div>
         </div>
     </header>
 
-    <div>
-        <h2>Discover & Review</h2>
-        <h3>Our Campsites</h3>
-        <p>Explore our growing database of curated campsites and leave your own reviews!</p>
-    </div>
-
-    <div>
-        <h2>Featured Campsites</h2>
-        <h3>React Lake Campground</h3>
-        <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
-    </div>
-
-    <div>
-        <h2>Our Community Partners</h2>
-        <h3>Bootstrap Outfitters</h3>
-        <p>Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4" col-md-3>
+                <h2 class="text-sm-right">Discover & Review</h2>
+            </div>
+            <div class="col">
+                <h3>Our Supplements</h3>
+                 <p>Explore our growing database of curated campsites and leave your own reviews!</p>
+            </div>
+        </div>
+    
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 col-md-3">
+                <h2 class="text-sm-right">Featured Workouts</h2>
+            </div>
+            <div class="col">
+                <h3>Workouts for all fitness levels</h3>
+                <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+            </div>
+        </div>
+        
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 col-md-3">
+                <h2 class="text-sm-right">Our Community Partners</h2>
+            </div>
+            <div class="col">
+                <h3>Trainers</h3>
+                <p>Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
+            </div>
+        </div>
+        
     </div>
 
     <footer>
-        <div>
-            <h5>Links</h5>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Sites</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Sites</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a href="http://instagram.com/">Instagram</a>
+                    <a href="http://facebook.com/">Facebook</a>
+                    <a href="http://twitter.com/">Twitter</a>
+                    <a href="http://youtube.com/">YouTube</a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    Tel: 1-555-555-1234<br />
+                    Email: contact@refinesupps.com
+                </div>
+            </div>
         </div>
-        <div>
-            <h5>Social</h5>
-            <a href="http://instagram.com/">Instagram</a>
-            <a href="http://facebook.com/">Facebook</a>
-            <a href="http://twitter.com/">Twitter</a>
-            <a href="http://youtube.com/">YouTube</a>
-        </div>
-        <div>
-            Tel: 1-206-555-1234<br />
-            Email: campsites@nucamp.co
-        </div>
+        
     </footer>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     
+    <script type="text/javascript" src='js/main.js'></script>
+
 </body>
 </html>
