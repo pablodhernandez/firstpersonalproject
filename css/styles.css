@@ -3,7 +3,8 @@ body {
 }
 
 h2 {
-    color: #3046C5
+    color: #3046C5;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar {
@@ -29,7 +30,8 @@ h2 {
 }
 
 .navbar-toggler {
-    background-color: #fff !important
+    background-color: #000;
+    color: #fff;
 }
 
 .jumbotron {
@@ -53,8 +55,29 @@ h2 {
     margin: auto;
     padding: 2em;
 }
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); }
+  
+  
+  #carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100; }
  
 
-footer {
+.site-footer {
     background: #797D7F;
+    
 }
+
+a:hover {
+    text-decoration: none;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px; }
+

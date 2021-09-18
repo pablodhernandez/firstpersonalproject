@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+    <title>REFINE Fitness</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#">REFINE Fitness</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars" ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-4">
+                <li class="nav-item">
+                    <a class="nav-link" data-value="supplements" href="./supplements.html">Supplements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-value="training" href="./training.html">Training</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-value="gear" href="#">Trainers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-value="about" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-value="contact" href="#">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav> 
+
+
+    <div class="container">        
+        <div class="row">
+            <div class="col">
+                <h2 class="text-light pl-1">About Us</h2>
+            </div>
+        </div>
+
+        <div class="row row-content">
+            <div class="col-md-6">
+                <h3>Our Mission</h3>
+                <p>We present a curated database of the best workouts and supplements to provide a one-stop shop for fitness. We increase access to experience trainers who are willing to guide both new and experienced bodybuilders alike. We continue to grow with a mission to become the ultimate resource for fitness enthusiast.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid" src="images/biceptcurl.jpeg" alt="">
+            </div>
+            <div class="col">
+                <div class="card bg-light mt-3">
+                    <blockquote class="blockquote card-body">
+                        <p class="mb-0">Pressure is a Privilege</p>
+                        <footer class="blockquote-footer">Chris Bumbstead,
+                            <cite title="Source Title">Mr. Olympia Classic Physique</cite>
+                        </footer>
+                    </blockquote>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!--
+        <div class="row row-content align-items-center mt-5">
+            <div class="deals">
+                <h1 class="text-center">Supplements</h1>
+                <div class="container">
+                    <div class="row pt-lg-5">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="card border-0 p-5 p-md-1 p-lg-4">
+                                <a href="https://shop.bodybuilding.com/products/jym-supplement-science-pro-jym-protein?variant=39381949776031&skuid=JYM5810004"><img src="images/ProJym_Protein.png" class="card-img-top" alt=""></a>
+                                <div class="card-body">
+                                    <div class="card-text text-center">
+                                        <h4>Jym ProJym</h4>
+                                        <p>
+                                        Protein<br>
+                                        $34.99
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="card border-0 p-5 p-md-1 p-lg-4">
+                                <a href="https://shop.bodybuilding.com/products/jym-supplement-science-pre-jym-pre-workout?variant=40682431742111&skuid=JYM6370139"><img src="images/PreJym_PreWorkout.jpeg" class="card-img-top" alt=""></a>
+                                <div class="card-body">
+                                    <div class="card-text text-center">
+                                        <h4>Jym PreJym</h4>
+                                        <p>
+                                        Pre-workout<br>
+                                        $37.99
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="card border-0 p-5 p-md-1 p-lg-4">
+                                <a href="https://shop.bodybuilding.com/products/jym-supplement-science-post-jym-fast-digesting-carbs?variant=39381945450655&skuid=JYM4910041"><img src="images/PostJym_FastDigestingCarb.png" class="card-img-top" alt=""></a>
+                                <div class="card-body">
+                                    <div class="card-text text-center">
+                                        <h4>Jym PostJym</h4>
+                                        <p>
+                                        Fast Digesting Carb<br>
+                                        $16.99
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="row pt-lg-5">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="card border-0 p-5 p-md-1 p-lg-4">
+                                <a href="https://shop.bodybuilding.com/products/evlution-nutrition-isolate-protein?variant=39381973368991&skuid=EVL5880014"><img src="images/EVL_Protein.png" class="card-img-top" alt=""></a>
+                                <div class="card-body">
+                                    <div class="card-text text-center">
+                                        <h4>EVL 100% ISOLATE</h4>
+                                        <p>
+                                          Protein<br>
+                                          $32.99
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="card border-0 p-5 p-md-1 p-lg-4">
+                                <a href="https://shop.bodybuilding.com/collections/evlution-nutrition/products/evlution-nutrition-engn-pre-workout?variant=39381941584031&skuid=EVL6290027"><img src="images/EVL_PreWorkout.png" class="card-img-top" alt=""></a>
+                                <div class="card-body">
+                                    <div class="card-text text-center">
+                                        <h4>EVL ENGN</h4>
+                                        <p>
+                                          Pre-workout<br>
+                                          $31.99
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="card border-0 p-5 p-md-1 p-lg-4">
+                                <a href="https://shop.bodybuilding.com/products/evlution-nutrition-creatine5000?variant=39381938798751&skuid=EVL2210034"><img src="images/EVL_Creatine.png" class="card-img-top" alt=""></a>
+                                <div class="card-body">
+                                    <div class="card-text text-center">
+                                        <h4>EVL Creatine5000</h4>
+                                        <p>
+                                          Creatine<br>
+                                          $14.99
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        -->
+        </div>
+    </div>
+
+    <footer class="site-footer mx-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1 my-4">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">Home</a></li>
+                        <li><a href="#" class="text-light">About</a></li>
+                        <li><a href="#" class="text-light">Sites</a></li>
+                        <li><a href="#" class="text-light">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center my-4">
+                    <h5>Social</h5>
+                    <a href="http://instagram.com/"><span class="fa fa-instagram fa-lg text-light"></span></a>
+                    <a href="http://facebook.com/"><span class="fa fa-facebook fa-lg text-light"></span></a>
+                    <a href="http://twitter.com/"><span class="fa fa-twitter fa-lg text-light"></span></a>
+                    <a href="http://youtube.com/"><span class="fa fa-youtube ga-lg text-light"></span></a>
+                </div>
+                <div class="col-sm-4 text-center text-white my-4">
+                    <span class="fa fa-mobile fa-lg text-dark" aria-hidden="true"></span>  1-555-555-1234<br />
+                    <span class="fa fa-envelope-o text-dark" aria-hidden="true"></span>  contact@refinesupps.com
+                </div>
+            </div>
+        </div>       
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript" src='js/main.js'></script>
+
+</body>
+</html>
