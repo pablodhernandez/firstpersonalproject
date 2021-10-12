@@ -81,3 +81,14 @@ a:hover {
     border-bottom: 1px ridge;
     min-height: 200px; }
 
+.card {
+    background-color: #000;
+}
+
+.card-body {
+    color: #fff;
+}
+
+.card-body a {
+    color: goldenrod;
+}
